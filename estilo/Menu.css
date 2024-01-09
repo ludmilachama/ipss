@@ -1,0 +1,52 @@
+
+/* Estilos do Menu*/
+.Menu {
+    border-bottom: 1px solid gray;
+    display: flex; /* Flexbox */
+    justify-content: space-between; /* Separa os elementos */
+}
+
+.Menu ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.Menu ul {
+    display: flex; /* Flexbox */
+    margin: 30px 10px 0px 0px; /* Margens (cima, direita, baixo, esquerda) */
+} 
+
+.Menu .Logotipo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Menu ul li span {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    transition: 1.5s;
+}
+
+.Menu ul li span:hover {
+    background-color: #019286;
+}
+
+.Menu ul li span a:hover {
+    transform: rotate(360deg);
+    color: white;
+}
+
+
+.Menu ul li a p:hover {
+    transition: all 0.5 ease;
+    transform: rotate(360deg);
+}
+
+/* Fim dos estilos do Menu */
