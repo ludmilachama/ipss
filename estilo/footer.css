@@ -1,0 +1,18 @@
+
+/* Estilos do rodapé*/
+
+Footer {
+  background-color: #019286;
+  padding: 25px 25px 4px 25px; /* Espaçamentos (cima, direita, baixo e esquerda) */
+}
+
+.RedesSociais img {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  
+}
+
+.copy{
+  text-align: center;
+}

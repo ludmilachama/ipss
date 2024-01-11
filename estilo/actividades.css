@@ -1,0 +1,36 @@
+.actividades {
+  display: flex; /* Flex box, alinha os elementos um ao lado do outro*/
+  margin: 0 10rem 0 10rem; /* Espacçamento lateral esquerdo e direito */
+  flex-wrap: wrap; /* Quebra a linha dos elementos quando chega no limite da tela */
+}
+
+.actividade {
+  margin: 20px;
+}
+
+
+.actividade img {
+  width: 120px;
+  height: 120px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 576px) {
+  .actividades {
+    margin: 0 5rem 0 5rem; /* Espacçamento lateral esquerdo e direito */
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
+
+}
