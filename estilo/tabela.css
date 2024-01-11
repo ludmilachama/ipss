@@ -1,0 +1,17 @@
+.container {
+  margin: 3rem 10rem;
+}
+
+.table, th, td{
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+th{
+  background-color: rgb(241, 241, 241);
+}
