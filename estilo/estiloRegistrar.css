@@ -103,7 +103,7 @@ section .signin .content .form .inputBox
   position: relative;
   width: 100%;
 }
-section .signin .content .form .inputBox input 
+section .signin .content .form .inputBox input, button
 {
   position: relative;
   width: 100%;
@@ -150,7 +150,7 @@ section .signin .content .form .inputBox i
   color: rgb(255, 0, 128);
   font-weight: 600;
 }
-.signin .content .form .inputBox input[type="submit"]
+.signin .content .form .inputBox input[type="submit"], button
 {
   padding: 10px;
   background: rgb(255, 0, 128);
